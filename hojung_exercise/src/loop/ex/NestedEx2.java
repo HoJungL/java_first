@@ -1,0 +1,14 @@
+//println : 라인 자동변경, print : 옆으로 붙음
+package loop.ex;
+
+public class NestedEx2 {
+    public static void main(String[] args) {
+        int rows= 3;
+        for (int i = 1; i<=rows ; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
